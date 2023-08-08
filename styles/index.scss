@@ -1,0 +1,103 @@
+@import "./reset";
+
+body {
+  background-color: #2c2a2d;
+  background-image: url("../assets/images/group\ coffee.png");
+  background-repeat: no-repeat;
+  background-position: center 10%;
+  background-size: 70rem;
+}
+
+#header {
+  .header__nav {
+    padding-top: 2rem;
+    &-menu {
+      .list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 5rem;
+        li {
+          transition: 0.7s;
+          &:hover {
+            transition: 0.7s;
+            transform: scale(1.1);
+          }
+
+          img {
+            width: 6.5rem;
+          }
+          .links {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+            cursor: pointer;
+            transition: 0.7s;
+          }
+        }
+      }
+    }
+  }
+}
+
+#main {
+  color: #fff;
+  .main__center {
+    position: relative;
+    &-content {
+      text-transform: uppercase;
+      font-weight: 900;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 12%;
+      font-size: 8rem;
+    }
+    &-cofe {
+      position: absolute;
+      left: 36%;
+      margin-top: -22%;
+      height: 35rem;
+    }
+    &-point {
+      margin-top: -6%;
+      position: absolute;
+      right: 3rem;
+    }
+    &-btns {
+      display: flex;
+      justify-content: center;
+      column-gap: 27.5rem;
+      .btn {
+        cursor: pointer;
+        width: 9rem;
+        height: 2.5rem;
+        background: transparent;
+        color: #fff;
+        border: 1px solid #fff;
+        text-transform: uppercase;
+        transition: 0.7s;
+
+        &:hover {
+          transition: 0.7s;
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+  .bottom {
+    ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      :nth-child(3) {
+        margin-top: -8px;
+      }
+      li {
+        position: relative;
+        top: 11.6rem;
+        right: 2rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,226 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style-type: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background-color: #2c2a2d;
+  background-image: url("../assets/images/group coffee.png");
+  background-repeat: no-repeat;
+  background-position: center 10%;
+  background-size: 70rem;
+}
+
+#header .header__nav {
+  padding-top: 2rem;
+}
+#header .header__nav-menu .list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 5rem;
+       column-gap: 5rem;
+}
+#header .header__nav-menu .list li {
+  transition: 0.7s;
+}
+#header .header__nav-menu .list li:hover {
+  transition: 0.7s;
+  transform: scale(1.1);
+}
+#header .header__nav-menu .list li img {
+  width: 6.5rem;
+}
+#header .header__nav-menu .list li .links {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.7s;
+}
+
+#main {
+  color: #fff;
+}
+#main .main__center {
+  position: relative;
+}
+#main .main__center-content {
+  text-transform: uppercase;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12%;
+  font-size: 8rem;
+}
+#main .main__center-cofe {
+  position: absolute;
+  left: 36%;
+  margin-top: -22%;
+  height: 35rem;
+}
+#main .main__center-point {
+  margin-top: -6%;
+  position: absolute;
+  right: 3rem;
+}
+#main .main__center-btns {
+  display: flex;
+  justify-content: center;
+  -moz-column-gap: 27.5rem;
+       column-gap: 27.5rem;
+}
+#main .main__center-btns .btn {
+  cursor: pointer;
+  width: 9rem;
+  height: 2.5rem;
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  text-transform: uppercase;
+  transition: 0.7s;
+}
+#main .main__center-btns .btn:hover {
+  transition: 0.7s;
+  transform: scale(1.1);
+}
+#main .bottom ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#main .bottom ul :nth-child(3) {
+  margin-top: -8px;
+}
+#main .bottom ul li {
+  position: relative;
+  top: 11.6rem;
+  right: 2rem;
+}/*# sourceMappingURL=index.css.map */
